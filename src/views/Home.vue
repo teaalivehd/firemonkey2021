@@ -1,8 +1,12 @@
 <template lang="pug">
-h1 HI
+.home
+  h1 HI
 </template>
 
 <style lang="stylus" scoped>
+@import '../css/style.styl'
+
+
 h1
   color red
 </style>
