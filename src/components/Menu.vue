@@ -18,7 +18,7 @@
   size(,5rem)
   position fixed
   flexCenter()
-  background-color primary_color
+  background-color rgba(0,0,255,0.5)
   z-index 1
   .nav
     a
