@@ -1,0 +1,32 @@
+primary_color = #2979ff
+primary_color_light = #75a7ff
+primary_color_dark = #004ecb
+
+size(w = 100%, h = w)
+  width w
+  height h
+
+flexCenter(j = center, a = center, d = row)
+  flex-direction d
+  display flex
+  justify-content j
+  align-items a
+
+posCenter()
+  position absolute
+  left 50%
+  top 50%
+  transform translate(-50%,-50%)
+
+abpos(l = initial, t = initial)
+  position absolute
+  left l
+  top t
+
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+  a
+    text-decoration none
+    color #222
