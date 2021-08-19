@@ -10,7 +10,6 @@
 @import '../css/style.styl'
 
 .home
-  background-color #333
   section
     flexCenter()
     size(100%,remHeight)
@@ -19,7 +18,8 @@
       color #fff
       
   section:nth-of-type(1)
-    background-color #111
+    background-color transparent
+    opacity value
   section:nth-of-type(2)
     background-color #222
 
